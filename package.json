@@ -8,8 +8,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "predeploy": "expo build:web",
-    "deploy": "gh-pages -d web-build"
+    "predeploy": "npx expo export:web",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@expo-google-fonts/montserrat": "^0.2.3",
