@@ -18,7 +18,7 @@ export default function App() {
   const [valorFinalCompra, setValorFinalCompra] = useState(0);
   const [modalVisible, setModalVisible] = useState(false);
   const [compraRealizada, setCompraRealizada] = useState(false);
-  const [feedbackVisible, setFeedbackVisible] = useState(false); // Estado para controlar o feedback visual
+  const [setFeedbackVisible] = useState(false); // Estado para controlar o feedback visual
 
   const fadeAnim = useRef(new Animated.Value(0)).current; // Animação de opacidade para o feedback
 
