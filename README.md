@@ -21,7 +21,7 @@ Este é um aplicativo de **Cardápio Digital** desenvolvido em **React Native**.
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/srpessoni/cardapio.git
    cd nome-do-repositorio
    ```
 
